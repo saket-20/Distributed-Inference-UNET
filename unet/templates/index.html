@@ -1,0 +1,16 @@
+<html>
+    <title>
+        
+    </title>
+    <head>
+
+    </head>
+    <body>
+        {{host}}
+        <br>
+        <form action="{{url_for('get_pred')}}" method='post' enctype="multipart/form-data">
+            <input type="file" name="image">
+            <input type="submit" value="Upload">
+        </form>
+    </body>
+</html>
