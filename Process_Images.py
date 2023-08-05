@@ -6,7 +6,7 @@ import sys
 
 url = 'http://localhost:8080/pred'
 
-dirname = "C:/Users/vempa/Desktop/Dark Circle/test/"
+dirname = "/Dark Circle/test" #enter the directory with the images you want to process
 
 def process_file(file1):
     if "mask" not in file1 and file1[-4:] != ".csv":
